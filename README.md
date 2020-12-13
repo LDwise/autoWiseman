@@ -1,2 +1,2 @@
 # autoWiseman
-Automatically complete EB Wiseman lessons(wiseman.com.hk) with full marks.
+Automatically complete EB Wiseman lessons(https://wiseman.com.hk/) with full marks.
