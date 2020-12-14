@@ -1,5 +1,5 @@
 # autoWiseman
-Automatically complete [EB Wiseman lessons](https://wiseman.com.hk) with full marks.
+Automatically complete [EB Wiseman](https://wiseman.com.hk) lessons with full marks.
 
 Using **Python** with **selenium** pakeage.
 
@@ -15,7 +15,7 @@ How to finish a lesson with full mark?
 
 ## Process (User)
 - Login
-  - Into [Login page](https://lms.wiseman.com.hk/lms/user/)
+  - Into [Login](https://lms.wiseman.com.hk/lms/user/) page
   ![Ayfe.png](https://i.qpix.com/2020/12/14/Ayfe.png)
   - Input Username and Password
   ![Ayt3.png](https://i.qpix.com/2020/12/14/Ayt3.png)
