@@ -33,9 +33,9 @@ watch a [video](https://youtu.be/xcrjj_qhfiU) to learn it.
 2. Into Lessons list page
    - Into `https://lms.wiseman.com.hk/lms/user/secure/course/eb/select_theme/lessons.shtml` [EB Level 1](https://lms.wiseman.com.hk/lms/user/secure/course/eb/select_theme/lessons.shtml) page
 ## Get lessons link for loop
-1. loop in table`driver.find_elements_by_xpath('//div[@class="table-responsive"]/table[@class="table table-striped"]/tbody/tr')`\
-2. find link address for open as example:`/lms/user/secure/course/eb/select_theme/selectLesson.*from=lesson`\
-3. follow link and open web page\
+1. loop in table`driver.find_elements_by_xpath('//div[@class="table-responsive"]/table[@class="table table-striped"]/tbody/tr')`
+2. find link address for open as example:`/lms/user/secure/course/eb/select_theme/selectLesson.*from=lesson`
+3. follow link and open web page
 ## Get correct answear
 1. disconnect network first
 ```
