@@ -10,8 +10,8 @@ A method to get total scores.
 watch a [video](https://youtu.be/xcrjj_qhfiU) to learn it.
 ---
 ## Step
-1. [Download selenium](#process-user)
-2. Get Name & Score (for display)
+1. [Download selenium](#download-selenium)
+2. [Into Wiseman Lessons list](#into-wiseman-lessons-list)
 3. Get lessons link for loop
 4. Into lesson link with offline network
 5. Press "Submit" to get correct answear
@@ -20,19 +20,18 @@ watch a [video](https://youtu.be/xcrjj_qhfiU) to learn it.
 8. redo step 3-7 untill all lessons finished
 ---
 ## Download selenium
-download lastest installer
-'!apt -q -qq update'\
-download chromium chromedriver to use selenium successfully.
-'!apt -q -qq install chromium-chromedriver'\
-download selenium of python
-'!pip -q install selenium'
-
-- Login
+- Download lastest installer`!apt -q -qq update`
+- Download chromium chromedriver to use selenium successfully`!apt -q -qq install chromium-chromedriver`
+- Download selenium of python`!pip -q install selenium`
+## Into Wiseman Lessons list
+Login
+- method 1
   - Into [Login](https://lms.wiseman.com.hk/lms/user/) page
-  ![Ayfe.png](https://i.qpix.com/2020/12/14/Ayfe.png)
   - Input Username and Password
-  ![Ayt3.png](https://i.qpix.com/2020/12/14/Ayt3.png)
   - Press Login buttom
   ![Aytk.png](https://i.qpix.com/2020/12/14/Aytk.png)
-- Lessons list
+ - method 2
+  - Into `https://lms.wiseman.com.hk/lms/user/login.do?username=%s&password=%s` page & input Username and Password
+Into Lessons list page
+- Into `https://lms.wiseman.com.hk/lms/user/secure/course/eb/select_theme/lessons.shtml` [EB Level 1](https://lms.wiseman.com.hk/lms/user/secure/course/eb/select_theme/lessons.shtml) page
 ###### Program by a high school student.
