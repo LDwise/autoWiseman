@@ -10,7 +10,7 @@ A method to get total scores.
 watch a [video](https://youtu.be/xcrjj_qhfiU) to learn it.
 ---
 ## Step
-1. [Download selenium](#Process \(User\))
+1. [Download selenium](#Process (User))
 2. Get Name & Score (for display)
 3. Get lessons link for loop
 4. Into lesson link with offline network
