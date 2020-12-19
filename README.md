@@ -22,7 +22,7 @@ watch a [video](https://youtu.be/xcrjj_qhfiU) to learn it.
 - Download chromium chromedriver to use selenium successfully`!apt -q -qq install chromium-chromedriver`
 - Download selenium of python`!pip -q install selenium`
 ## Into Wiseman Lessons list
-### Login
+1. Login
  - method 1
    - Into [Login](https://lms.wiseman.com.hk/lms/user/) page
    - Input Username and Password
@@ -30,7 +30,7 @@ watch a [video](https://youtu.be/xcrjj_qhfiU) to learn it.
    ![Aytk.png](https://i.qpix.com/2020/12/14/Aytk.png)
  - method 2
    - Into `https://lms.wiseman.com.hk/lms/user/login.do?username=%s&password=%s` page & input Username and Password
-### Into Lessons list page
+2. Into Lessons list page
  - Into `https://lms.wiseman.com.hk/lms/user/secure/course/eb/select_theme/lessons.shtml` [EB Level 1](https://lms.wiseman.com.hk/lms/user/secure/course/eb/select_theme/lessons.shtml) page
 ## Get lessons link for loop
 1. loop in table`driver.find_elements_by_xpath('//div[@class="table-responsive"]/table[@class="table table-striped"]/tbody/tr')`\
