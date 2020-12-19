@@ -40,9 +40,9 @@ watch a [video](https://youtu.be/xcrjj_qhfiU) to learn it.
 1. disconnect network first
 ```
 driver.set_network_conditions(offline=True,
-						latency=5, # additional latency (ms)
-						download_throughput=500 * 1024, # maximal throughput
-						upload_throughput=500 * 1024)
+	latency=5, # additional latency (ms)
+	download_throughput=500 * 1024, # maximal throughput
+	upload_throughput=500 * 1024)
 ```
 2. Press "Submit" make it wrong and show correct answear with selenium`driver.find_element_by_xpath('//button[@data-text="SUBMIT"]').send_keys(Keys.ENTER)`\
 or use JavaScript:`driver.execute_script('document.querySelector('button[data-text="SUBMIT"]').click();')`
@@ -53,9 +53,9 @@ or use JavaScript:`driver.execute_script('document.querySelector('button[data-te
 1. connect network
 ```
 driver.set_network_conditions(offline=False,
-						latency=5, # additional latency (ms)
-						download_throughput=500 * 1024, # maximal throughput
-						upload_throughput=500 * 1024)
+	latency=5, # additional latency (ms)
+	download_throughput=500 * 1024, # maximal throughput
+	upload_throughput=500 * 1024)
 ```
 2. according to those aleardy got answears.
    - Select answear
