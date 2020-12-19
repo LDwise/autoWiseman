@@ -23,15 +23,15 @@ watch a [video](https://youtu.be/xcrjj_qhfiU) to learn it.
 - Download selenium of python`!pip -q install selenium`
 ## Into Wiseman Lessons list
 1. Login
- - method 1
-   - Into [Login](https://lms.wiseman.com.hk/lms/user/) page
-   - Input Username and Password
-   - Press Login buttom
-   ![Aytk.png](https://i.qpix.com/2020/12/14/Aytk.png)
- - method 2
-   - Into `https://lms.wiseman.com.hk/lms/user/login.do?username=%s&password=%s` page & input Username and Password
+   - method 1
+     - Into [Login](https://lms.wiseman.com.hk/lms/user/) page
+     - Input Username and Password
+     - Press Login buttom
+     ![Aytk.png](https://i.qpix.com/2020/12/14/Aytk.png)
+   - method 2
+     - Into `https://lms.wiseman.com.hk/lms/user/login.do?username=%s&password=%s` page & input Username and Password
 2. Into Lessons list page
- - Into `https://lms.wiseman.com.hk/lms/user/secure/course/eb/select_theme/lessons.shtml` [EB Level 1](https://lms.wiseman.com.hk/lms/user/secure/course/eb/select_theme/lessons.shtml) page
+   - Into `https://lms.wiseman.com.hk/lms/user/secure/course/eb/select_theme/lessons.shtml` [EB Level 1](https://lms.wiseman.com.hk/lms/user/secure/course/eb/select_theme/lessons.shtml) page
 ## Get lessons link for loop
 1. loop in table`driver.find_elements_by_xpath('//div[@class="table-responsive"]/table[@class="table table-striped"]/tbody/tr')`\
 2. find link address for open as example:`/lms/user/secure/course/eb/select_theme/selectLesson.*from=lesson`\
@@ -47,8 +47,8 @@ driver.set_network_conditions(offline=True,
 2. Press "Submit" make it wrong and show correct answear with selenium`driver.find_element_by_xpath('//button[@data-text="SUBMIT"]').send_keys(Keys.ENTER)`\
 or use JavaScript:`driver.execute_script('document.querySelector('button[data-text="SUBMIT"]').click();')`
 3. Answear has different type so geting answear isn't same
-- Select question
-- Input question
+   - Select question
+   - Input question
 ## Submit correct answear
 1. connect network
 ```
@@ -58,7 +58,7 @@ driver.set_network_conditions(offline=False,
 						upload_throughput=500 * 1024)
 ```
 2. according to those aleardy got answears.
- - Select answear
- - Input answear
+   - Select answear
+   - Input answear
 3. Submit all to web server.
 ###### Program by a high school student.
